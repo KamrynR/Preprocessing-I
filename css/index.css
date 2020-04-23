@@ -290,6 +290,12 @@ nav a:hover {
 #BottomContainer .listBoxHead .listBox1 p:first-child {
   font-weight: bold;
 }
+#BottomContainer .listBoxHead .listBox1 p:nth-child(2) {
+  background-color: whitesmoke;
+}
+#BottomContainer .listBoxHead .listBox1 p:nth-child(4) {
+  background-color: whitesmoke;
+}
 #BottomContainer .listBoxHead .listBox2 {
   border-top: 1px solid none;
   background-color: none;
@@ -302,6 +308,12 @@ nav a:hover {
 }
 #BottomContainer .listBoxHead .listBox2 p:first-child {
   font-weight: bold;
+}
+#BottomContainer .listBoxHead .listBox2 p:nth-child(2) {
+  background-color: whitesmoke;
+}
+#BottomContainer .listBoxHead .listBox2 p:nth-child(4) {
+  background-color: whitesmoke;
 }
 #BottomContainer .listBoxHead .listBox3 {
   border-top: 1px solid none;
@@ -316,6 +328,12 @@ nav a:hover {
 #BottomContainer .listBoxHead .listBox3 p:first-child {
   font-weight: bold;
 }
+#BottomContainer .listBoxHead .listBox3 p:nth-child(2) {
+  background-color: whitesmoke;
+}
+#BottomContainer .listBoxHead .listBox3 p:nth-child(4) {
+  background-color: whitesmoke;
+}
 #BottomContainer .listBoxHead .listBox4 {
   border-top: 1px solid none;
   background-color: none;
@@ -329,9 +347,16 @@ nav a:hover {
 #BottomContainer .listBoxHead .listBox4 p:first-child {
   font-weight: bold;
 }
+#BottomContainer .listBoxHead .listBox4 p:nth-child(2) {
+  background-color: whitesmoke;
+}
+#BottomContainer .listBoxHead .listBox4 p:nth-child(4) {
+  background-color: whitesmoke;
+}
 footer {
-  background-color: slategray;
+  background-color: gray;
   color: white;
+  font-weight: bold;
   padding: 3%;
   padding-bottom: 7%;
   display: flex;
