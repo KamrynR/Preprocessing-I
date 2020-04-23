@@ -165,33 +165,33 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-#HeadContainer {
+.HeadContainer {
   background-color: whitesmoke;
   padding-left: 3%;
   padding-right: 3%;
   padding-top: 5%;
 }
-#HeadContainer #intro1 {
+.HeadContainer .intro1 {
   background-color: whitesmoke;
   padding-bottom: 4%;
 }
-#HeadContainer #intro1 p:first-child {
+.HeadContainer .intro1 p:first-child {
   font-size: 3.3rem;
   padding-bottom: 2%;
 }
-#HeadContainer #intro1 p:last-child {
+.HeadContainer .intro1 p:last-child {
   font-size: 1.23rem;
 }
-#HeadContainer #intro2 {
+.HeadContainer .intro2 {
   background-color: whitesmoke;
   padding-bottom: 6%;
 }
-#HeadContainer #intro2 p {
+.HeadContainer .intro2 p {
   font-size: 0.97rem;
   line-height: 150%;
   padding-right: 5%;
 }
-#HeadContainer #intro2 button {
+.HeadContainer .intro2 button {
   border-radius: 5px;
   padding: 1%;
   font-size: medium;
@@ -200,82 +200,82 @@ nav a:hover {
   color: white;
   font-weight: bold;
 }
-#MiddleContainer {
+.MiddleContainer {
   margin-top: 3%;
   display: flex;
   flex-direction: row;
   margin-bottom: 3%;
 }
-#MiddleContainer #leftMiddleContainer {
+.MiddleContainer .leftMiddleContainer {
   width: 50%;
   background-color: none;
 }
-#MiddleContainer #leftMiddleContainer p:first-child {
+.MiddleContainer .leftMiddleContainer p:first-child {
   font-size: 1.6rem;
   font-weight: bold;
   padding-bottom: 2%;
 }
-#MiddleContainer #leftMiddleContainer p:last-child {
+.MiddleContainer .leftMiddleContainer p:last-child {
   font-size: 0.96rem;
   line-height: 160%;
 }
-#MiddleContainer #rightMiddleContainer {
+.MiddleContainer .rightMiddleContainer {
   width: 50%;
   background-color: none;
 }
-#MiddleContainer #rightMiddleContainer .rMCp {
+.MiddleContainer .rightMiddleContainer .rMCp {
   font-size: 1.3rem;
   font-weight: bold;
   padding-bottom: 2%;
 }
-#MiddleContainer #rightMiddleContainer div p {
+.MiddleContainer .rightMiddleContainer div p {
   font-size: 0.96rem;
   background-color: none;
 }
-#MiddleContainer #rightMiddleContainer div p:nth-child(1) {
+.MiddleContainer .rightMiddleContainer div p:nth-child(1) {
   padding: 2%;
   border: 1px solid whitesmoke;
   border-radius: 5px 5px 0px 0px;
 }
-#MiddleContainer #rightMiddleContainer div p:nth-child(2) {
+.MiddleContainer .rightMiddleContainer div p:nth-child(2) {
   padding: 2%;
   border: 1px solid whitesmoke;
 }
-#MiddleContainer #rightMiddleContainer div p:nth-child(3) {
+.MiddleContainer .rightMiddleContainer div p:nth-child(3) {
   padding: 2%;
   border: 1px solid whitesmoke;
 }
-#MiddleContainer #rightMiddleContainer div p:nth-child(4) {
+.MiddleContainer .rightMiddleContainer div p:nth-child(4) {
   padding: 2%;
   border: 1px solid whitesmoke;
 }
-#MiddleContainer #rightMiddleContainer div p:nth-child(5) {
+.MiddleContainer .rightMiddleContainer div p:nth-child(5) {
   padding: 2%;
   border: 1px solid whitesmoke;
   border-radius: 0px 0px 5px 5px;
 }
-#BottomContainer {
+.BottomContainer {
   padding-bottom: 5%;
 }
-#BottomContainer .title1 {
+.BottomContainer .title1 {
   font-size: 1.1rem;
   font-weight: bold;
 }
-#BottomContainer .listBoxHead {
+.BottomContainer .listBoxHead {
   display: flex;
   flex-direction: row;
   justify-items: flex-start;
   align-items: center;
   background-color: none;
 }
-#BottomContainer .listBoxHead div p {
+.BottomContainer .listBoxHead div p {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: white;
   border-top: 1px solid whitesmoke;
   border-bottom: 1px solid whitesmoke;
 }
-#BottomContainer .listBoxHead .listBox1 {
+.BottomContainer .listBoxHead .listBox1 {
   border-top: 1px solid none;
   background-color: none;
   padding-top: 1%;
@@ -287,16 +287,16 @@ nav a:hover {
   width: 10%;
   font-weight: bold;
 }
-#BottomContainer .listBoxHead .listBox1 p:first-child {
+.BottomContainer .listBoxHead .listBox1 p:first-child {
   font-weight: bold;
 }
-#BottomContainer .listBoxHead .listBox1 p:nth-child(2) {
+.BottomContainer .listBoxHead .listBox1 p:nth-child(2) {
   background-color: whitesmoke;
 }
-#BottomContainer .listBoxHead .listBox1 p:nth-child(4) {
+.BottomContainer .listBoxHead .listBox1 p:nth-child(4) {
   background-color: whitesmoke;
 }
-#BottomContainer .listBoxHead .listBox2 {
+.BottomContainer .listBoxHead .listBox2 {
   border-top: 1px solid none;
   background-color: none;
   padding-top: 1%;
@@ -306,16 +306,16 @@ nav a:hover {
   align-items: space-evenly;
   width: 30%;
 }
-#BottomContainer .listBoxHead .listBox2 p:first-child {
+.BottomContainer .listBoxHead .listBox2 p:first-child {
   font-weight: bold;
 }
-#BottomContainer .listBoxHead .listBox2 p:nth-child(2) {
+.BottomContainer .listBoxHead .listBox2 p:nth-child(2) {
   background-color: whitesmoke;
 }
-#BottomContainer .listBoxHead .listBox2 p:nth-child(4) {
+.BottomContainer .listBoxHead .listBox2 p:nth-child(4) {
   background-color: whitesmoke;
 }
-#BottomContainer .listBoxHead .listBox3 {
+.BottomContainer .listBoxHead .listBox3 {
   border-top: 1px solid none;
   background-color: none;
   padding-top: 1%;
@@ -325,16 +325,16 @@ nav a:hover {
   align-items: space-evenly;
   width: 40%;
 }
-#BottomContainer .listBoxHead .listBox3 p:first-child {
+.BottomContainer .listBoxHead .listBox3 p:first-child {
   font-weight: bold;
 }
-#BottomContainer .listBoxHead .listBox3 p:nth-child(2) {
+.BottomContainer .listBoxHead .listBox3 p:nth-child(2) {
   background-color: whitesmoke;
 }
-#BottomContainer .listBoxHead .listBox3 p:nth-child(4) {
+.BottomContainer .listBoxHead .listBox3 p:nth-child(4) {
   background-color: whitesmoke;
 }
-#BottomContainer .listBoxHead .listBox4 {
+.BottomContainer .listBoxHead .listBox4 {
   border-top: 1px solid none;
   background-color: none;
   padding-top: 1%;
@@ -344,21 +344,123 @@ nav a:hover {
   align-items: space-evenly;
   width: 20%;
 }
-#BottomContainer .listBoxHead .listBox4 p:first-child {
+.BottomContainer .listBoxHead .listBox4 p:first-child {
   font-weight: bold;
 }
-#BottomContainer .listBoxHead .listBox4 p:nth-child(2) {
+.BottomContainer .listBoxHead .listBox4 p:nth-child(2) {
   background-color: whitesmoke;
 }
-#BottomContainer .listBoxHead .listBox4 p:nth-child(4) {
+.BottomContainer .listBoxHead .listBox4 p:nth-child(4) {
   background-color: whitesmoke;
 }
 footer {
-  background-color: gray;
+  background-color: grey;
   color: white;
   font-weight: bold;
   padding: 3%;
   padding-bottom: 7%;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+  }
+  nav a {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 2%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  nav a:hover {
+    text-decoration: none;
+  }
+  .imgContainer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+  }
+  .intro1 p:first-child {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem !important;
+  }
+  .intro1 p:last-child {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem !important;
+  }
+  .intro2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .MiddleContainer {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .leftMiddleContainer p:first-child {
+    font-size: 1rem !important;
+  }
+  .leftMiddleContainer p:last-child {
+    font-size: 0.8rem !important;
+    line-height: 130% !important;
+  }
+  .rightMiddleContainer .rMCp {
+    font-size: 1rem !important;
+  }
+  .rightMiddleContainer div p:nth-child(1) {
+    margin-top: 5%;
+    font-size: 0.8rem;
+    padding-bottom: 7% !important;
+  }
+  .rightMiddleContainer div p:nth-child(2) {
+    margin-top: 5%;
+    font-size: 0.8rem;
+    padding-bottom: 7% !important;
+  }
+  .rightMiddleContainer div p:nth-child(3) {
+    margin-top: 5%;
+    font-size: 0.8rem;
+    padding-bottom: 7% !important;
+  }
+  .rightMiddleContainer div p:nth-child(4) {
+    margin-top: 5%;
+    font-size: 0.8rem;
+    padding-bottom: 7% !important;
+  }
+  .rightMiddleContainer div p:nth-child(5) {
+    margin-top: 5%;
+    font-size: 0.8rem;
+    padding-bottom: 7% !important;
+  }
+  .title1 {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1rem !important;
+  }
+  .listBoxHead {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .listBoxHead p {
+    font-size: 0.8rem !important;
+  }
+  footer {
+    font-size: 0.8rem;
+  }
 }
