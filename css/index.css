@@ -279,6 +279,10 @@ nav a:hover {
   justify-items: center;
   align-items: space-evenly;
   width: 10%;
+  font-weight: bold;
+}
+#BottomContainer .listBoxHead .listBox1 p:first-child {
+  font-weight: bold;
 }
 #BottomContainer .listBoxHead .listBox2 {
   border-top: 1px solid none;
@@ -290,6 +294,9 @@ nav a:hover {
   align-items: space-evenly;
   width: 30%;
 }
+#BottomContainer .listBoxHead .listBox2 p:first-child {
+  font-weight: bold;
+}
 #BottomContainer .listBoxHead .listBox3 {
   border-top: 1px solid none;
   background-color: none;
@@ -300,6 +307,9 @@ nav a:hover {
   align-items: space-evenly;
   width: 40%;
 }
+#BottomContainer .listBoxHead .listBox3 p:first-child {
+  font-weight: bold;
+}
 #BottomContainer .listBoxHead .listBox4 {
   border-top: 1px solid none;
   background-color: none;
@@ -309,6 +319,9 @@ nav a:hover {
   justify-items: center;
   align-items: space-evenly;
   width: 20%;
+}
+#BottomContainer .listBoxHead .listBox4 p:first-child {
+  font-weight: bold;
 }
 footer {
   background-color: slategray;
