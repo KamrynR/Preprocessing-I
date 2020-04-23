@@ -184,7 +184,8 @@ nav a:hover {
   padding-bottom: 6%;
 }
 #HeadContainer #intro2 p {
-  font-size: 1rem;
+  font-size: 0.97rem;
+  line-height: 150%;
   padding-right: 5%;
 }
 #HeadContainer #intro2 button {
@@ -200,7 +201,7 @@ nav a:hover {
   margin-top: 3%;
   display: flex;
   flex-direction: row;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 #MiddleContainer #leftMiddleContainer {
   width: 50%;
@@ -209,7 +210,7 @@ nav a:hover {
 #MiddleContainer #leftMiddleContainer p:first-child {
   font-size: 1.3rem;
   font-weight: bold;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
 #MiddleContainer #leftMiddleContainer p:last-child {
   font-size: 0.96rem;
@@ -222,7 +223,7 @@ nav a:hover {
 #MiddleContainer #rightMiddleContainer .rMCp {
   font-size: 1.3rem;
   font-weight: bold;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
 #MiddleContainer #rightMiddleContainer div p {
   font-size: 0.96rem;
@@ -279,6 +280,7 @@ nav a:hover {
   flex-direction: column;
   justify-items: center;
   align-items: space-evenly;
+  padding-left: 1%;
   width: 10%;
   font-weight: bold;
 }
